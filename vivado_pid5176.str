@@ -1,0 +1,141 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 5176
+License: Customer
+
+Current time: 	Fri Dec 05 15:15:23 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 3840x2160
+Screen resolution (DPI): 144
+Available screens: 1
+Available disk space: 201 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Software/VIVADO/Vivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Software/VIVADO/Vivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	user_x
+User home directory: C:/Users/user_
+User working directory: D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Software/VIVADO/Vivado/Vivado
+HDI_APPROOT: D:/Software/VIVADO/Vivado/Vivado/2018.3
+RDI_DATADIR: D:/Software/VIVADO/Vivado/Vivado/2018.3/data
+RDI_BINDIR: D:/Software/VIVADO/Vivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/user_/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/user_/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/user_/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Software/VIVADO/Vivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder/vivado.log
+Vivado journal file location: 	D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder/vivado.jou
+Engine tmp dir: 	D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder/.Xil/Vivado-5176-ding
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Software/VIVADO/Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Software/VIVADO/Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Software/VIVADO/Vivado/Vivado/2018.3
+XILINX_SDK: D:/Software/VIVADO/Vivado/SDK/2018.3
+XILINX_VIVADO: D:/Software/VIVADO/Vivado/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Software/VIVADO/Vivado/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 629 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 88 MB (+89715kb) [00:00:04]
+// [Engine Memory]: 553 MB (+428218kb) [00:00:04]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\Workspace\SCMI\PCM\LDPC\Decoder\LDPC_Decoder\ldpc_decoder.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder/ldpc_decoder.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 75 MB. Current time: 12/5/25, 3:15:25 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 130 MB (+39572kb) [00:00:11]
+// [Engine Memory]: 724 MB (+150107kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  2534 ms.
+// Tcl Message: open_project D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder/ldpc_decoder.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/FPGA_Source/XILINX/LDPC-F/Decoder_2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/VIVADO/Vivado/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 800 MB (+42191kb) [00:00:13]
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 830.824 ; gain = 209.059 
+// Project name: ldpc_decoder; location: D:/Workspace/SCMI/PCM/LDPC/Decoder/LDPC_Decoder; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [GUI Memory]: 144 MB (+7716kb) [00:01:01]
+selectCodeEditor("top_module.v", 397, 309); // cl (w, cp)
+selectCodeEditor("top_module.v", 379, 413); // cl (w, cp)
+selectCodeEditor("top_module.v", 375, 396); // cl (w, cp)
+selectCodeEditor("top_module.v", 362, 444); // cl (w, cp)
+selectCodeEditor("top_module.v", 355, 326); // cl (w, cp)
+selectCodeEditor("top_module.v", 343, 414); // cl (w, cp)
+selectCodeEditor("top_module.v", 341, 316); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x1 : data_load (data_load.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x1 : data_load (data_load.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("data_load.v", 409, 351); // cl (w, cp)
+selectCodeEditor("data_load.v", 353, 280); // cl (w, cp)
+selectCodeEditor("data_load.v", 343, 239); // cl (w, cp)
+selectCodeEditor("data_load.v", 363, 471); // cl (w, cp)
+selectCodeEditor("data_load.v", 351, 557); // cl (w, cp)
+selectCodeEditor("data_load.v", 359, 522); // cl (w, cp)
+selectCodeEditor("data_load.v", 356, 468); // cl (w, cp)
+selectCodeEditor("data_load.v", 353, 520); // cl (w, cp)
+selectCodeEditor("data_load.v", 373, 677); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x2 : nms_decode (nms_decode.v)]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x2 : nms_decode (nms_decode.v)]", 4, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x2 : nms_decode (nms_decode.v), z2 : ram_app (ram_app.v)]", 7); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x2 : nms_decode (nms_decode.v), z2 : ram_app (ram_app.v)]", 7); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module (top_module.v), x2 : nms_decode (nms_decode.v), z3 : CNU_unit (CNU_unit.v)]", 8); // B (D, cp)
